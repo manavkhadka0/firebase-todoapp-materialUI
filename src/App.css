@@ -1,0 +1,29 @@
+.app {
+  text-align: center;
+}
+h1 {
+  background: black;
+  color: white;
+  margin: 0;
+  padding: 1rem;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.MuiFormControl-root {
+  width: 30%;
+}
+.form {
+  display: flex;
+  padding: 20px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid whitesmoke;
+  background: rgb(235, 231, 231);
+}
